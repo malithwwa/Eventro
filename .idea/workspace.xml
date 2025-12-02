@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9a66295-1687-4ceb-a27b-adbe5a2778dc" name="Changes" comment="implement event card &amp; layout">
+    <list default="true" id="b9a66295-1687-4ceb-a27b-adbe5a2778dc" name="Changes" comment="implement database models">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/booking.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/database/booking.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/event.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/database/event.model.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;database__models&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
@@ -112,6 +114,9 @@
       <workItem from="1763690371023" duration="7563000" />
       <workItem from="1763779213382" duration="9765000" />
       <workItem from="1763873129881" duration="943000" />
+      <workItem from="1763884247880" duration="3485000" />
+      <workItem from="1763890929006" duration="836000" />
+      <workItem from="1764568457319" duration="3447000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -145,7 +150,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763789453000</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="config workspace.xml">
+      <option name="closed" value="true" />
+      <created>1763876816016</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763876816016</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implement database models">
+      <option name="closed" value="true" />
+      <created>1763890312918</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763890312918</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +188,9 @@
     <MESSAGE value="create explore button" />
     <MESSAGE value="create navbar" />
     <MESSAGE value="implement event card &amp; layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement event card &amp; layout" />
+    <MESSAGE value="config workspace.xml" />
+    <MESSAGE value="implement database models" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement database models" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -1,3 +1,4 @@
+export const BASE_URL = `${process.env.NEXT_PUBLIC_BASE_URL}/api`
 export const events = [
     {
         slug: "react-conf-2024",
